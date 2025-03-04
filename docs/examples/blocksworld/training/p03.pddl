@@ -2,6 +2,7 @@
 ;;
 (define (problem blocksworld-03)
  (:domain blocksworld)
+ (:requirements :typing)
  (:objects  b1 b2 - object)
  (:init 
     (arm-empty)
